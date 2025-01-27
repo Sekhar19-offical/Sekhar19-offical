@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Content Creator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>AI Content Creator</h1>
+  </header>
+  <main>
+    <section>
+      <label for="keywords">Enter Keywords:</label>
+      <input type="text" id="keywords" placeholder="e.g., technology, marketing">
+      
+      <label for="content-type">Choose Content Type:</label>
+      <select id="content-type">
+        <option value="blog">Blog Post</option>
+        <option value="poetry">Poetry</option>
+        <option value="article">Article</option>
+        <option value="marketing">Marketing Copy</option>
+      </select>
+
+      <button id="generate-btn">Generate Content</button>
+    </section>
+    <section id="output">
+      <h2>Generated Content:</h2>
+      <div id="generated-content"></div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 AI Content Creator</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
