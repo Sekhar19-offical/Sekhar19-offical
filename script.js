@@ -11,8 +11,8 @@ document.getElementById('generate-btn').addEventListener('click', async () => {
     outputDiv.textContent = 'Generating content...';
   
     try {
-      // Replace 'http://127.0.0.1:5000/generate' with your backend API URL.
-      const response = await fetch('http://127.0.0.1:5000/generate', {
+      // Replace 'aicreatecontent.netlify.app' with your backend API URL.
+      const response = await fetch('aicreatecontent.netlify.app', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
